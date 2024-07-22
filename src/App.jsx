@@ -3,23 +3,23 @@ import {
   Route,
   Routes,
 } from "react-router-dom";
-import HomePage from "./pages/home/HomePage";
-import NoPage from "./pages/noPage/NoPage";
-import ProductInfo from "./pages/productInfo/ProductInfo";
-import ScrollTop from "./components/scrollTop/ScrollTop";
-import CartPage from "./pages/cart/CartPage";
-import AllProduct from "./pages/allProduct/AllProduct";
-import Signup from "./pages/registration/Signup";
-import Login from "./pages/registration/Login";
-import UserDashboard from "./pages/user/UserDashboard";
-import AdminDashboard from "./pages/admin/AdminDashboard";
-import AddProductPage from "./pages/admin/AddProductPage";
-import UpdateProductPage from "./pages/admin/UpdateProductPage";
-import MyState from "./context/myState";
+import HomePage from "./pages/home/HomePage.jsx";
+import NoPage from "./pages/noPage/NoPage.jsx";
+import ProductInfo from "./pages/productInfo/ProductInfo.jsx";
+import ScrollTop from "./components/scrollTop/ScrollTop.jsx";
+import CartPage from "./pages/cart/CartPage.jsx";
+import AllProduct from "./pages/allProduct/AllProduct.jsx";
+import Signup from "./pages/registration/Signup.jsx";
+import Login from "./pages/registration/Login.jsx";
+import UserDashboard from "./pages/user/UserDashboard.jsx";
+import AdminDashboard from "./pages/admin/AdminDashboard.jsx";
+import AddProductPage from "./pages/admin/AddProductPage.jsx";
+import UpdateProductPage from "./pages/admin/UpdateProductPage.jsx";
+import MyState from "./context/myState.jsx";
 import { Toaster } from "react-hot-toast";
-import { ProtectedRouteForUser } from "./protectedRoute/ProtectedRouteForUser";
-import { ProtectedRouteForAdmin } from "./protectedRoute/ProtectedRouteForAdmin";
-import CategoryPage from "./pages/category/CategoryPage";
+import { ProtectedRouteForUser } from "./protectedRoute/ProtectedRouteForUser.jsx";
+import { ProtectedRouteForAdmin } from "./protectedRoute/ProtectedRouteForAdmin.jsx";
+import CategoryPage from "./pages/category/CategoryPage.jsx";
 
 const App = () => {
   return (
