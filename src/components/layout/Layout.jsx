@@ -1,8 +1,8 @@
-import React from 'react'
-import Navbar from '../navbar/Navbar'
-import Footer from '../footer/Footer'
+import Footer from "../footer/Footer";
+import Navbar from "../navbar/Navbar";
 
-function Layout({ children }) {
+/* eslint-disable react/prop-types */
+const Layout = ({ children }) => {
     return (
         <div>
             <Navbar />
@@ -11,7 +11,7 @@ function Layout({ children }) {
             </div>
             <Footer />
         </div>
-    )
+    );
 }
 
-export default Layout
+export default Layout;

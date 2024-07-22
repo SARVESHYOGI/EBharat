@@ -1,12 +1,11 @@
-import React from 'react'
-import Layout from '../../components/layout/Layout.jsx'
-import HeroSection from '../../components/heroSection/HeroSection.jsx'
-import Category from '../../components/category/Category.jsx'
-import HomePageProductCard from '../../components/homePageProductCard/HomePageProductCard.jsx'
-import Track from '../../components/track/Track.jsx'
-import Testimonial from '../../components/testimonial/Testimonial.jsx'
+import Category from "../../components/category/Category";
+import HeroSection from "../../components/heroSection/HeroSection";
+import HomePageProductCard from "../../components/homePageProductCard/HomePageProductCard";
+import Layout from "../../components/layout/Layout";
+import Testimonial from "../../components/testimonial/Testimonial";
+import Track from "../../components/track/Track";
 
-function HomePage() {
+const HomePage = () => {
     return (
         <Layout>
             <HeroSection />
@@ -15,7 +14,7 @@ function HomePage() {
             <Track />
             <Testimonial />
         </Layout>
-    )
+    );
 }
 
-export default HomePage
+export default HomePage;
